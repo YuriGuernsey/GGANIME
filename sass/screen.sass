@@ -1,0 +1,72 @@
+/*
+  Welcome to Compass.
+  In this file you should write your main styles. (or centralize your imports)
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+//General Variables 
+$background-color: linear-gradient(to bottom right, #50a3a2 5%, #00BFFF 100%)
+
+//Title Variable
+$title-font:Helvetica, sans-serif
+$color:#FFF
+$link-color:#EEE
+$title-size: 300%
+$coding-idea: 500%
+
+.wrapper
+    // Keeps the content within the page centered
+    max-width: 500px
+    margin: auto
+
+html
+    text-align: center
+
+body
+    background: $background-color
+    color: $color
+
+.Title 
+    font: $title-size $title-font
+    
+.proj_gen
+    font: $coding-idea $title-font
+    
+a 
+    color: $link-color
+    text-decoration: none
+
+div.tab 
+    overflow: hidden
+    border: 1px solid #ccc
+    background-color: #f1f1f1
+    text-align: center
+    
+
+
+div.tab button 
+    background-color: inherit
+    float: left
+    border: none
+    outline: none
+    cursor: pointer
+    padding: 14px 16px
+    transition: 0.3s
+    text-align: center
+
+
+div.tab button:hover 
+    background-color: #ddd
+
+
+div.tab button.active 
+    background-color: #ccc
+
+
+.tabcontent
+    display: none
+    padding: 6px 12px
+    border: 1px solid #ccc
+    border-top: none
+    text-align: center
+    background-color: #ccc
