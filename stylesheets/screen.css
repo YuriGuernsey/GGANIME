@@ -1,0 +1,76 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../sass/screen.sass */
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* line 22, ../sass/screen.sass */
+html {
+  text-align: center;
+}
+
+/* line 25, ../sass/screen.sass */
+body {
+  background: linear-gradient(to bottom right, #50a3a2 5%, #00BFFF 100%);
+  color: #FFF;
+}
+
+/* line 29, ../sass/screen.sass */
+.Title {
+  font: 300% Helvetica, sans-serif;
+}
+
+/* line 32, ../sass/screen.sass */
+.proj_gen {
+  font: 500% Helvetica, sans-serif;
+}
+
+/* line 35, ../sass/screen.sass */
+a {
+  color: #EEE;
+  text-decoration: none;
+}
+
+/* line 39, ../sass/screen.sass */
+div.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* line 47, ../sass/screen.sass */
+div.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* line 58, ../sass/screen.sass */
+div.tab button:hover {
+  background-color: #ddd;
+}
+
+/* line 62, ../sass/screen.sass */
+div.tab button.active {
+  background-color: #ccc;
+}
+
+/* line 66, ../sass/screen.sass */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: center;
+  background-color: #ccc;
+}
