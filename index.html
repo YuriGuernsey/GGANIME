@@ -1,164 +1,51 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Title -->
-    <title>Home Page</title>
-    <!-- Links -->
-    <link rel="stylesheet" href="style.css" /> </head>
+    <title>BitBulb</title>
+    <link href="public/stylesheets/screen.css" rel="stylesheet" type="text/css" />
+    <link href="public/stylesheets/print.css" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="public/stylesheets/ie.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
 
 <body>
-    <!-- Top half of the website -->
-    <header>
-        <!-- Image in the backgrounfd, with a login and register form on top of the image -->
-        <div class="background">
-            <div class="transbox">
-                <!-- Login Form -->
-                <form class="Login">
-                    <h3>Login</h3>
-                    <br/>
-                    <label>Username:</label>
-                    <br/>
-                    <input placeholder="Username" type="text" required />
-                    <br/>
-                    <br/>
-                    <label>Password:</label>
-                    <br/>
-                    <input placeholder="Password" type="password" required />
-                    <br/>
-                    <br/>
-                    <input placeholder="Submit" type="submit" required /> </form>
-                <div class="Vertical-Line"> </div>
-                <!-- Register Form -->
-                <form class="Register">
-                    <h3>Register</h3>
-                    <br/>
-                    <label>Username:</label>
-                    <br/>
-                    <input placeholder="Username" type="text" required />
-                    <br/>
-                    <br/>
-                    <label>Password:</label>
-                    <br/>
-                    <input placeholder="Password" type="password" required />
-                    <br/>
-                    <br/>
-                    <input placeholder="Submit" type="submit" required /> </form>
-                <div class="clear"></div>
-            </div>
+    <div class="wrapper">
+        <div class="Title">BitBulb</div>
+        <br/>
+        <div class="instructions">
+            <button class="btn" onclick="refresh()">Click Here To Generate A New Project Idea. </button>
         </div>
-    </header>
-    <!-- Main Section of the website -->
-    <section>
-        <!-- Top Recommended Anime Section -->
-        <h3>Top Recommended Anime</h3> <a href="voting.html" class="button">Vote Next Months Recommended Animes</a>
-        <hr />
-        <hr />
-        <div class="Top-Anime">
-            <!-- Top Recommended Anime 1 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 1 (Link) -->
-                <a href="Anime/One-punch-man.html">
-                    <!-- Top Recommended Anime 1 (Image) --><img src="Images/130full.jpg" />
-                    <!-- Top Recommended Anime 1 (Name) -->
-                    <p>One Punch Man</p>
-                </a>
+        <center>
+            <div class="proj_gen">
+                <script type="text/javascript" src="javascript/idea_gen.js">
+                </script>
             </div>
-            <!-- Top Recommended Anime 2 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 2 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 2 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 2 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 3 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 3 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 3 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 3 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 4 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 4 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 4 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 4 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 5 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 5 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 5 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 5 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 6 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 6 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 6 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 6 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 7 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 7 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 7 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 7 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 8 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 8 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 8 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 8 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 9 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 9 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 9 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 9 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <!-- Top Recommended Anime 10 -->
-            <div class="Anime">
-                <!-- Top Recommended Anime 10 (Link) -->
-                <a href="#">
-                    <!-- Top Recommended Anime 10 (Image) --><img src="http://placehold.it/100x100" />
-                    <!-- Top Recommended Anime 10 (Name) -->
-                    <p>{Enter Anime Name Here}</p>
-                </a>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <hr />
-        <!-- Explanation of the Service -->
-        <h3>What is {Enter Site Name Here}?</h3>
-        <hr />
-        <hr />
-        <p>{Enter Text Here}</p>
-    </section>
-    <!-- Footer of the Page -->
-    <footer> Enter links here</footer>
+        </center>
+        <div class="clear"> </div>
+        <div class="footer">
+            <br /> <a href="/html/list.html">Go To The Full List</a>
+            <hr /> <a href="https://chuckykillr.github.io/" target="_blank">Developer</a> <a href="https://www.linkedin.com/in/yurinunesalves" target="_blank">LinkedIn</a> <a href="https://twitter.com/YuriGuernsey" target="_blank">Twitter</a>
+            <br/> <pre>Have a cool coding idea?
+        Then Tweet @YuriGuernsey under the #BitBulbIdea</pre> </div>
+    </div>
+    </div>
 </body>
+<script src="javascript/basic_func.js"></script>
+<!--Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-96157735-1', 'auto');
+    ga('send', 'pageview');
+</script>
 
 </html>
